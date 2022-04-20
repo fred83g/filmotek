@@ -1,0 +1,10 @@
+*** Full Backup
+Creating archive : C:\Users\frede\Documents\FSC 2022\z-projetsInfo 2022\4Dv19_CineFred\appli\CineFred\data[0001].4BK
+Attachment(s): 
+	C:\Users\frede\Documents\FSC 2022\z-projetsInfo 2022\4Dv19_CineFred\appli\CineFred\Data\data.4DSyncHeader [NOT FOUND]
+	C:\Users\frede\Documents\FSC 2022\z-projetsInfo 2022\4Dv19_CineFred\appli\CineFred\Data\data.4DSyncData [NOT FOUND]
+	C:\Users\frede\Documents\FSC 2022\z-projetsInfo 2022\4Dv19_CineFred\appli\CineFred\Data\data.4DIndx [OK]
+Scheduled 00/00/0 00:00
+Starting 19/04/2022 09:51
+Ending 19/04/2022 09:51
+

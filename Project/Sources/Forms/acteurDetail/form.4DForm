@@ -1,0 +1,288 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"roleListe_LB": {
+					"type": "listbox",
+					"dataSource": "Form:C1466.roleListe",
+					"top": 177,
+					"left": 3,
+					"width": 1090,
+					"height": 212,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "collection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"columns": [
+						{
+							"header": {
+								"name": "Role",
+								"text": "Role",
+								"dataSource": "This:C1470.DescrRole"
+							},
+							"name": "Colonne1",
+							"footer": {
+								"name": "Pied1"
+							},
+							"width": 60,
+							"dataSource": "This:C1470.DescrRole"
+						},
+						{
+							"name": "Annee",
+							"dataSource": "This:C1470.Film.Annee",
+							"width": 55,
+							"enterable": true,
+							"header": {
+								"text": "Annee",
+								"name": "Entête1"
+							},
+							"footer": {
+								"name": "1"
+							}
+						},
+						{
+							"name": "Nom",
+							"dataSource": "This:C1470.Film.Nom",
+							"width": 237,
+							"enterable": true,
+							"header": {
+								"text": "Nom",
+								"name": "6"
+							},
+							"footer": {
+								"name": "7"
+							}
+						},
+						{
+							"name": "Genre",
+							"dataSource": "This:C1470.Film.Genre",
+							"width": 61,
+							"enterable": true,
+							"header": {
+								"text": "Genre",
+								"name": "2"
+							},
+							"footer": {
+								"name": "3"
+							}
+						},
+						{
+							"name": "Pays",
+							"dataSource": "This:C1470.Film.Pays",
+							"width": 69,
+							"enterable": true,
+							"header": {
+								"text": "Pays",
+								"name": "8"
+							},
+							"footer": {
+								"name": "9"
+							}
+						},
+						{
+							"name": "Prod",
+							"dataSource": "This:C1470.Film.Prod",
+							"width": 209,
+							"enterable": true,
+							"header": {
+								"text": "Prod",
+								"name": "10"
+							},
+							"footer": {
+								"name": "11"
+							}
+						},
+						{
+							"name": "Real",
+							"dataSource": "This:C1470.Film.Real",
+							"width": 248,
+							"enterable": true,
+							"header": {
+								"text": "Real",
+								"name": "12"
+							},
+							"footer": {
+								"name": "13"
+							}
+						},
+						{
+							"name": "Stock",
+							"dataSource": "This:C1470.Film.Stock",
+							"width": 79,
+							"enterable": true,
+							"header": {
+								"text": "Stock",
+								"name": "14"
+							},
+							"footer": {
+								"name": "15"
+							}
+						},
+						{
+							"name": "Stock2",
+							"dataSource": "This:C1470.Film.Stock2",
+							"width": 65,
+							"enterable": true,
+							"header": {
+								"text": "Stock2",
+								"name": "16"
+							},
+							"footer": {
+								"name": "17"
+							}
+						}
+					]
+				},
+				"label_Nom": {
+					"type": "text",
+					"text": "Nom:",
+					"top": 27,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Nom": {
+					"type": "input",
+					"dataSource": "Form:C1466.Acteur.Nom",
+					"top": 27,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Categorie": {
+					"type": "text",
+					"text": "Categorie:",
+					"top": 53,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Categorie": {
+					"type": "input",
+					"dataSource": "Form:C1466.Acteur.Categorie",
+					"top": 53,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_AnneeNaiss": {
+					"type": "text",
+					"text": "AnneeNaiss:",
+					"top": 105,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_AnneeNaiss": {
+					"type": "input",
+					"dataSource": "Form:C1466.Acteur.AnneeNaiss",
+					"top": 105,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_Pays": {
+					"type": "text",
+					"text": "Pays:",
+					"top": 79,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_Pays": {
+					"type": "input",
+					"dataSource": "Form:C1466.Acteur.Pays",
+					"top": 79,
+					"left": 120,
+					"width": 250,
+					"height": 16
+				},
+				"label_AnneeDeces": {
+					"type": "text",
+					"text": "AnneeDeces:",
+					"top": 132,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_AnneeDeces": {
+					"type": "input",
+					"dataSource": "Form:C1466.Acteur.AnneeDeces",
+					"top": 132,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"btSauver": {
+					"type": "button",
+					"text": "Sauver",
+					"top": 89,
+					"left": 762,
+					"width": 96,
+					"height": 24,
+					"events": [
+						"onClick"
+					],
+					"defaultButton": true,
+					"method": "ObjectMethods/btSauver.4dm"
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 444,
+					"top": 5,
+					"width": 160,
+					"height": 160,
+					"dataSourceTypeHint": "picture",
+					"dataSource": "Form:C1466.Acteur.Photo"
+				}
+			}
+		}
+	],
+	"geometryStamp": 103,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

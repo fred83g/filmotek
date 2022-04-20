@@ -1,0 +1,24 @@
+{
+	"forms": {
+		"acteurDetail": {
+			"timeStamp": "2022-04-18T21:08:48.231Z",
+			"destination": "detailScreen"
+		},
+		"acteurListe": {
+			"timeStamp": "2022-04-19T21:47:23.164Z",
+			"destination": "detailScreen"
+		},
+		"acteurSelection": {
+			"timeStamp": "2022-04-18T21:26:26.661Z",
+			"destination": "detailScreen"
+		},
+		"filmDetail": {
+			"timeStamp": "2022-04-19T22:57:14.235Z",
+			"destination": "detailScreen"
+		},
+		"filmListe": {
+			"timeStamp": "2022-04-19T21:47:10.590Z",
+			"destination": "detailScreen"
+		}
+	}
+}

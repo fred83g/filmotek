@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Formulaire1": {
+			"timeStamp": "2022-04-17T10:51:13.232Z",
+			"destination": "detailScreen"
+		},
+		"Formulaire2": {
+			"timeStamp": "2022-04-18T10:57:33.172Z",
+			"destination": "detailScreen"
+		},
+		"Sortie": {
+			"timeStamp": "2022-04-17T06:53:16.950Z",
+			"destination": "listScreen"
+		}
+	}
+}

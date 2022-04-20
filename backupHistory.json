@@ -1,0 +1,29 @@
+{
+	"C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Project\\CineFred.4DProject": [
+		{
+			"backupPath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\data[0001].4BK",
+			"structurePath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Project\\CineFred.4DProject",
+			"dataPath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Data\\data.4DD",
+			"logPath": "",
+			"startingDate": "2022-04-19T07:51:45.176Z",
+			"endingDate": "2022-04-19T07:51:45.176Z",
+			"scheduledDate": "2022-04-19T07:51:45.176Z",
+			"backupNumber": 1,
+			"duration": 314,
+			"attachments": [
+				{
+					"attachmentPath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Data\\data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Data\\data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "C:\\Users\\frede\\Documents\\FSC 2022\\z-projetsInfo 2022\\4Dv19_CineFred\\appli\\CineFred\\Data\\data.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}

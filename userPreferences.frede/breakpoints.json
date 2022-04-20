@@ -1,0 +1,28 @@
+[
+	{
+		"line": 1,
+		"method": {
+			"type": 2,
+			"table": 1,
+			"formName": "Sortie",
+			"objectName": "Bouton",
+			"methodPath": "/SOURCES/TableForms/1/Sortie/ObjectMethods/Bouton.4dm"
+		}
+	},
+	{
+		"line": 2,
+		"method": {
+			"type": 2,
+			"formName": "acteurSelection",
+			"objectName": "btSelectionActeur",
+			"methodPath": "/SOURCES/Forms/acteurSelection/ObjectMethods/btSelectionActeur.4dm"
+		}
+	},
+	{
+		"line": 8,
+		"method": {
+			"type": 1,
+			"methodName": "sauverRole"
+		}
+	}
+]

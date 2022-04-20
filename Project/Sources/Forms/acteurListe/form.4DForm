@@ -1,0 +1,149 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"artisteListe_LB": {
+					"type": "listbox",
+					"dataSource": "Form:C1466.data",
+					"top": 37,
+					"left": 10,
+					"width": 730,
+					"height": 300,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "collection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"selectedItemsSource": "",
+					"currentItemSource": "Form:C1466.eleCou",
+					"events": [
+						"onClick",
+						"onAfterKeystroke"
+					],
+					"method": "ObjectMethods/artisteListe_LB.4dm",
+					"columns": [
+						{
+							"name": "Nom",
+							"dataSource": "This:C1470.Nom",
+							"width": 266,
+							"enterable": true,
+							"header": {
+								"text": "Nom",
+								"name": "8"
+							},
+							"footer": {
+								"name": "9"
+							}
+						},
+						{
+							"name": "Categorie",
+							"dataSource": "This:C1470.Categorie",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Categorie",
+								"name": "4"
+							},
+							"footer": {
+								"name": "5"
+							}
+						},
+						{
+							"name": "Pays",
+							"dataSource": "This:C1470.Pays",
+							"width": 93,
+							"enterable": true,
+							"header": {
+								"text": "Pays",
+								"name": "10"
+							},
+							"footer": {
+								"name": "11"
+							}
+						},
+						{
+							"name": "AnneeNaiss",
+							"dataSource": "This:C1470.AnneeNaiss",
+							"width": 91,
+							"enterable": true,
+							"header": {
+								"text": "Annee Naiss",
+								"name": "2"
+							},
+							"footer": {
+								"name": "3"
+							}
+						},
+						{
+							"name": "AnneeDeces",
+							"dataSource": "This:C1470.AnneeDeces",
+							"width": 81,
+							"enterable": true,
+							"header": {
+								"text": "Annee Deces",
+								"name": "Entête1"
+							},
+							"footer": {
+								"name": "1"
+							}
+						},
+						{
+							"name": "ID",
+							"dataSource": "This:C1470.ID",
+							"width": 20,
+							"enterable": false,
+							"header": {
+								"text": "Id",
+								"name": "6"
+							},
+							"footer": {
+								"name": "7"
+							}
+						}
+					]
+				},
+				"Texte": {
+					"type": "text",
+					"text": "Click ou Flèche droite pour voir détail",
+					"top": 8,
+					"left": 415,
+					"width": 272,
+					"height": 15
+				}
+			}
+		}
+	],
+	"geometryStamp": 30,
+	"method": "method.4dm",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

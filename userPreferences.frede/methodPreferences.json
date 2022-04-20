@@ -1,0 +1,398 @@
+{
+	"Sources/Forms/Synthese/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-13T08:55:06.205Z"
+	},
+	"Sources/Methods/afficherFilmListe.4dm": {
+		"startSelection": 2,
+		"endSelection": 2,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T21:37:57.567Z"
+	},
+	"Sources/Methods/chargerFilmListe.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-17T10:09:14.820Z"
+	},
+	"Sources/Forms/filmListe/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T07:35:55.695Z"
+	},
+	"Sources/Forms/filmListe/ObjectMethods/listbox.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-13T09:53:53.044Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/listbox.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-14T06:54:57.569Z"
+	},
+	"Sources/Methods/afficherFilmDetail.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:43:25.468Z"
+	},
+	"Sources/Forms/filmDetail/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-14T07:12:39.574Z"
+	},
+	"Sources/Methods/chargerFilmDetail.4dm": {
+		"startSelection": 73,
+		"endSelection": 73,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:52:40.993Z"
+	},
+	"Sources/TableForms/1/Sortie/ObjectMethods/Bouton.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-15T05:49:53.853Z"
+	},
+	"Sources/Methods/Compiler_Variables.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T20:08:58.911Z"
+	},
+	"Sources/Forms/artisteListe/method.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-17T10:15:00.457Z"
+	},
+	"Sources/Forms/acteurListe/method.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T19:58:36.046Z"
+	},
+	"Sources/Methods/afficherActeurDetail.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T19:50:05.735Z"
+	},
+	"Sources/Methods/afficherActeurListe.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-17T10:27:57.206Z"
+	},
+	"Sources/Methods/chargerActeurDetail.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:32:39.792Z"
+	},
+	"Sources/Methods/chargerActeurListe.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-17T10:29:01.820Z"
+	},
+	"Sources/Forms/filmListe/ObjectMethods/filmListe_listbox.4dm": {
+		"startSelection": 0,
+		"endSelection": 18,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T08:58:03.352Z"
+	},
+	"Sources/Forms/acteurDetail/method.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:26:27.530Z"
+	},
+	"Sources/Methods/sauverFilm.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 35,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:42:41.159Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Bouton1.4dm": {
+		"startSelection": 0,
+		"endSelection": 10,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T07:48:32.212Z"
+	},
+	"Sources/Methods/sauverActeur.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T09:03:13.703Z"
+	},
+	"Sources/Forms/acteurDetail/ObjectMethods/btSauver.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T08:44:37.282Z"
+	},
+	"Sources/Forms/acteurListe/ObjectMethods/artisteListe_LB.4dm": {
+		"startSelection": 0,
+		"endSelection": 20,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T08:56:13.121Z"
+	},
+	"Sources/Methods/ajouterFilm.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:31:47.095Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btSauver.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T15:16:41.604Z"
+	},
+	"Sources/Methods/afficherActeurSelection.4dm": {
+		"startSelection": 5,
+		"endSelection": 5,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T19:53:28.119Z"
+	},
+	"Sources/Forms/acteurSelection/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T19:57:35.381Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btAjoutRole.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T20:04:25.423Z"
+	},
+	"Sources/Methods/ajouterRole.4dm": {
+		"startSelection": 29,
+		"endSelection": 29,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T21:26:27.363Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btAjouterRole.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T21:23:02.267Z"
+	},
+	"Sources/Forms/acteurSelection/ObjectMethods/artisteListe_LB.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T21:24:43.301Z"
+	},
+	"Sources/Forms/acteurSelection/ObjectMethods/btSelectionActeur.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-18T21:23:38.788Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btSupprimerRole.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T20:51:52.856Z"
+	},
+	"Sources/Methods/supprimerRole.4dm": {
+		"startSelection": 54,
+		"endSelection": 54,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T21:39:26.880Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/DescrRole.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:00:46.774Z"
+	},
+	"Sources/Methods/sauverRole.4dm": {
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:04:57.053Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/AnneeNaiss1.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:18:04.316Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/AnneeNaiss.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:21:40.061Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Categorie1.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:19:42.734Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Categorie.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:22:07.572Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Pays.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:22:27.780Z"
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Nom.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:22:49.019Z"
+	},
+	"Sources/Methods/sauverActeurFilmDetail.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-04-19T22:37:40.424Z"
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"PaysAct": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Fra",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "US",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Angl",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Bra",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "All",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	}
+}

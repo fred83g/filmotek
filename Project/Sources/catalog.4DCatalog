@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Filmotek" uuid="DE878067BFCAE044B30FF62F187C3E1B" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Film" uuid="1AA34083D0527E4F91A17E4D5A70AA8D" id="1">
+		<field name="ID" uuid="7D44AEC0186F8341BF2162AF1B5099CF" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="C398CAEA0AE2F94EA9EA19DE10AC847C" type="10" limiting_length="255" unique="true" not_null="true" never_null="true" id="2"/>
+		<field name="Genre" uuid="2FE2A974B09BC645B6A53955FE1C4B61" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Pays" uuid="E4FB40F5F67D1D4191AF0BF3D8535F5B" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Stock" uuid="CD35DC4B033A024D9C4FD5AC5439BAC1" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Real" uuid="EEFC95045653474796AECC0DAA8371CB" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Annee" uuid="7C42769F220BAC4095209E083C17B727" type="3" never_null="true" id="7"/>
+		<field name="Stock2" uuid="402F9ECEAE77124F98DB7C18F13C210A" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="Prod" uuid="13333BFDCBB765488223A57A973B4517" type="10" limiting_length="255" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="7D44AEC0186F8341BF2162AF1B5099CF"/>
+		<table_extra output_form="Sortie" input_form="Entree">
+			<editor_table_info displayable_fields_count="14">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="534" top="19" width="120" height="347.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Acteur" uuid="7F9A35CDF0EFB6429B6FA24F9D22CD4E" id="2">
+		<field name="ID" uuid="0527D929F2CBE74A886B87DB09906737" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Nom" uuid="580F460FF27103468AE846AB62100FD7" type="10" limiting_length="255" unique="true" never_null="true" id="2"/>
+		<field name="Categorie" uuid="15FFEC7B9B271E49B225ED08E50E39A6" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="AnneeNaiss" uuid="B2E3AFF86FE1E14CB00CA6509034DBBD" type="3" never_null="true" id="4"/>
+		<field name="Pays" uuid="D3B12BA7EFC074448E23498DE47B6617" type="10" limiting_length="255" never_null="true" id="5">
+			<field_extra enumeration_id="2"/>
+		</field>
+		<field name="AnneeDeces" uuid="AB20ED680C489A429C207CAD5967E345" type="3" never_null="true" id="6"/>
+		<field name="Photo" uuid="07A493E23C599842A255D01BF28841C0" type="12" never_null="true" id="7"/>
+		<primary_key field_name="ID" field_uuid="0527D929F2CBE74A886B87DB09906737"/>
+		<table_extra output_form="Sortie" input_form="Formulaire2">
+			<editor_table_info displayable_fields_count="8">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="209.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Role" uuid="36E36289CCCA4644A71A1D2676364BB1" id="3">
+		<field name="ID" uuid="DDE19C7481C5434A99086AF974399B29" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="ID_Acteur" uuid="33B70CCC0843DE429F0B0C50D132DFE5" type="4" never_null="true" id="2"/>
+		<field name="ID_Film" uuid="224E05CCD982514682542710BE59B128" type="4" never_null="true" id="3"/>
+		<field name="Descr" uuid="9FD4850839E84247A25DF708935A693B" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Photo" uuid="935626902FE56149BF3B8608314832A9" type="10" limiting_length="255" never_null="true" id="5"/>
+		<primary_key field_name="ID" field_uuid="DDE19C7481C5434A99086AF974399B29"/>
+		<table_extra output_form="Formulaire1">
+			<editor_table_info displayable_fields_count="5">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="274" top="35" width="120" height="161.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="zzz" uuid="BE7ABE53E898D548B0316843461BF872" id="4">
+		<field name="ID" uuid="6E937EC507DCE34DBFE5CFEE1596605A" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Champ_2" uuid="466A58E794E77D4DAB31663C43272207" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Champ_3" uuid="DB0B96C82A09944784089A0C26D8C7CF" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Champ_4" uuid="A73F89D942EAED4EBBF1ADE7C3FBF831" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Champ_5" uuid="DEF6BE5FC697474C844E0F41CDA321CD" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Champ_6" uuid="7906DF52B65ADD4DA3891D1D2B2BA83B" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="Champ_7" uuid="6DF9C38885982640A9FF7E9098680C82" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="Champ_8" uuid="EB1958A4C680E24AA364F56B70BF8584" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="Champ_9" uuid="586FAC7008FD1B4F893ED01F599CEEAB" type="10" limiting_length="255" never_null="true" id="9"/>
+		<primary_key field_name="ID" field_uuid="6E937EC507DCE34DBFE5CFEE1596605A"/>
+		<table_extra output_form="Formulaire1">
+			<editor_table_info displayable_fields_count="14">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="836" top="41" width="120" height="352.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="60908BDE0AB9A04F98D8F98A580FEFA3" name_Nto1="Lien_1" name_1toN="Lien_1_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="0527D929F2CBE74A886B87DB09906737" name="ID">
+				<table_ref uuid="7F9A35CDF0EFB6429B6FA24F9D22CD4E" name="Acteur"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="33B70CCC0843DE429F0B0C50D132DFE5" name="ID_Acteur">
+				<table_ref uuid="36E36289CCCA4644A71A1D2676364BB1" name="Role"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="0" via_point_y="0" prefers_left="false" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="14A610DEC64C2542A8106C45F15B8EF1" name_Nto1="Lien_2" name_1toN="Lien_2_retour" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="7D44AEC0186F8341BF2162AF1B5099CF" name="ID">
+				<table_ref uuid="1AA34083D0527E4F91A17E4D5A70AA8D" name="Film"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="224E05CCD982514682542710BE59B128" name="ID_Film">
+				<table_ref uuid="36E36289CCCA4644A71A1D2676364BB1" name="Role"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="0" via_point_y="0" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" uuid="08C2E743E2E2A447B215C0EF0AEB345D" type="7">
+		<field_ref uuid="33B70CCC0843DE429F0B0C50D132DFE5" name="ID_Acteur">
+			<table_ref uuid="36E36289CCCA4644A71A1D2676364BB1" name="Role"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="1348779D39CE504D9F80E95C0E463BD3" type="7">
+		<field_ref uuid="7D44AEC0186F8341BF2162AF1B5099CF" name="ID">
+			<table_ref uuid="1AA34083D0527E4F91A17E4D5A70AA8D" name="Film"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="6364D20D79F0DD4F8BBC79874363AE50" type="7">
+		<field_ref uuid="DDE19C7481C5434A99086AF974399B29" name="ID">
+			<table_ref uuid="36E36289CCCA4644A71A1D2676364BB1" name="Role"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="6F6F7638525BB2428B99300B957465A2" type="7">
+		<field_ref uuid="6E937EC507DCE34DBFE5CFEE1596605A" name="ID">
+			<table_ref uuid="BE7ABE53E898D548B0316843461BF872" name="zzz"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="6FFCB71B00D7DD4992D86023A20819E8" type="7">
+		<field_ref uuid="0527D929F2CBE74A886B87DB09906737" name="ID">
+			<table_ref uuid="7F9A35CDF0EFB6429B6FA24F9D22CD4E" name="Acteur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7B4E115DE3797841B86FF1E57D282408" type="7">
+		<field_ref uuid="224E05CCD982514682542710BE59B128" name="ID_Film">
+			<table_ref uuid="36E36289CCCA4644A71A1D2676364BB1" name="Role"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="C0AE454CBB421B45A8931FFD853EABCD" type="1">
+		<field_ref uuid="580F460FF27103468AE846AB62100FD7" name="Nom">
+			<table_ref uuid="7F9A35CDF0EFB6429B6FA24F9D22CD4E" name="Acteur"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E8E48E8E2F09954BA153C57EF23B7990" type="1">
+		<field_ref uuid="C398CAEA0AE2F94EA9EA19DE10AC847C" name="Nom">
+			<table_ref uuid="1AA34083D0527E4F91A17E4D5A70AA8D" name="Film"/>
+		</field_ref>
+	</index>
+	<index kind="keywords" unique_keys="true" uuid="FE9079C4807D824085B297FDE66334CB" type="3">
+		<field_ref uuid="580F460FF27103468AE846AB62100FD7" name="Nom">
+			<table_ref uuid="7F9A35CDF0EFB6429B6FA24F9D22CD4E" name="Acteur"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

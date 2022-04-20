@@ -1,0 +1,266 @@
+{
+	"Sources/Forms/Synthese/method.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/afficherFilmListe.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/chargerFilmListe.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmListe/method.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmListe/ObjectMethods/listbox.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 965,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/listbox.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/afficherFilmDetail.4dm": {
+		"left": 0,
+		"top": 225,
+		"width": 1366,
+		"height": 725
+	},
+	"Sources/Forms/filmDetail/method.4dm": {
+		"left": 0,
+		"top": 167,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/chargerFilmDetail.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/TableForms/1/Sortie/ObjectMethods/Bouton.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/Compiler_Variables.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/artisteListe/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurListe/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/afficherActeurDetail.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/afficherActeurListe.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/chargerActeurDetail.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/chargerActeurListe.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmListe/ObjectMethods/filmListe_listbox.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurDetail/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/sauverFilm.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Bouton1.4dm": {
+		"left": 0,
+		"top": 167,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/sauverActeur.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurDetail/ObjectMethods/btSauver.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurListe/ObjectMethods/artisteListe_LB.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/ajouterFilm.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btSauver.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/afficherActeurSelection.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurSelection/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btAjoutRole.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/ajouterRole.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btAjouterRole.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurSelection/ObjectMethods/artisteListe_LB.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/acteurSelection/ObjectMethods/btSelectionActeur.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/btSupprimerRole.4dm": {
+		"left": 0,
+		"top": 20,
+		"width": 1366,
+		"height": 725
+	},
+	"Sources/Methods/supprimerRole.4dm": {
+		"left": 0,
+		"top": 20,
+		"width": 1366,
+		"height": 725
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/DescrRole.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/sauverRole.4dm": {
+		"left": 0,
+		"top": 20,
+		"width": 1366,
+		"height": 725
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/AnneeNaiss1.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/AnneeNaiss.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Categorie1.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Categorie.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Pays.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Forms/filmDetail/ObjectMethods/Nom.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	},
+	"Sources/Methods/sauverActeurFilmDetail.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1366,
+		"height": 667
+	}
+}
